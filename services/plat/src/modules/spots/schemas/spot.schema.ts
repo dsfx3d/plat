@@ -26,14 +26,14 @@ export class Spot {
       enum: ["Point"],
       required: true,
     },
-    coords: {
+    coordinates: {
       type: [Number],
       required: true,
     },
   })
   location: {
     type: "Point";
-    coords: [number, number];
+    coordinates: [number, number];
   };
 }
 
